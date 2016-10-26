@@ -16,7 +16,7 @@
             startingLineNumber = "82"
             endingLineNumber = "82"
             landmarkName = "-testAddingTenPlusTwentyShouldBeThirty"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "-addNumbers:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

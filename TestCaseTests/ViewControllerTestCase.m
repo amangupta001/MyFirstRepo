@@ -85,12 +85,6 @@
     XCTAssertEqualObjects(viewControllerVC.resultTextField.text,@"30","Result of the textfield should be 30");
 }
 
--(void)testTextFieldFirstValueGreaterThanTextFieldSecond {
-    viewControllerVC.firstNumberTextField.text = @"20";
-    viewControllerVC.secondNumberTextField.text = @"30";
-
-    XCTAssertGreaterThan(viewControllerVC.firstNumberTextField.text,viewControllerVC.secondNumberTextField.text,"FirstTextField Value less than SecondTextField Value");
-}
 
 -(void)testTextFieldFirstValueAndTextFieldSecondDifference {
     viewControllerVC.firstNumberTextField.text = @"10";

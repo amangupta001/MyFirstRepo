@@ -4,7 +4,6 @@
 //
 //  Created by Apple on 18/10/16.
 //
-// Comment Aaman
 
 
 #import "SingletonClass.h"

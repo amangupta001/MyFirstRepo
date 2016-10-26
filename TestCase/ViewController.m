@@ -27,7 +27,7 @@
 -(IBAction)addNumbers:(id)sender {
     TestAddition *addition = [[TestAddition alloc] init];
     NSInteger result = [addition addNumberOne:[self.firstNumberTextField.text integerValue]  withNumberTwo:[self.secondNumberTextField.text integerValue]];
-    self.resultTextField.text = [NSString stringWithFormat:@"%d",result];
+    self.resultTextField.text = [NSString stringWithFormat:@"%ld",result];
 }
 
 -(IBAction)resetFields:(id)sender {
